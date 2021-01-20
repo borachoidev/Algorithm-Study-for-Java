@@ -15,7 +15,7 @@ public class Br12865 {
         int K = Integer.parseInt(st.nextToken());
 
         int[] W = new int[N + 1];
-        int[] V = new int[N + 1]; // 가치
+        int[] V = new int[N + 1];
         int[] dp = new int[K + 1];
 
         for (int i = 1; i <= N; i++) {
